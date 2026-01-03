@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Resume preview must not inherit Tailwind typography */
+.resume-preview {
+  font-family: "Times New Roman", serif;
+  font-size: 10.5pt;
+  line-height: 1.25;
+  color: #000;
+}
